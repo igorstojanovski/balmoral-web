@@ -1,0 +1,8 @@
+@import "balmoral.scss";
+@import "addons.scss";
+
+.balmoral {
+    @include addons;
+    @include balmoral;
+
+}
